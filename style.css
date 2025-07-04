@@ -143,6 +143,10 @@ input {
   border-radius: 3px;
 }
 
+input:focus {
+  accent-color: var(--clr-accent);
+}
+
 input:invalid {
   accent-color: red;
 }
